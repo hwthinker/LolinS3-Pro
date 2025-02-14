@@ -2,7 +2,7 @@
 
 
 
-![img](https://www.wemos.cc/en/latest/_static/boards/s3_pro_v1.0.0_1_16x16.jpg)
+![img](./assets/s3_pro_v1.0.0_1_16x16.jpg)
 
 
 
@@ -236,4 +236,11 @@ void loop() {
 
    - Perhatikan LED WS2812 apakah berkedip sesuai dengan program.
 
-     
+## WIRING
+
+
+
+![img](./assets/esp32-S3-WeMos-LOLIN-S3-Pro-pinout-high.png)
+
+
+​     
