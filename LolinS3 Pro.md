@@ -1,4 +1,4 @@
-# Waveshare ESP32-S3 Relay
+# Lolin S3 Pro 
 
 
 
@@ -32,7 +32,7 @@
 
 ![image-20250212051349165](./assets/image-20250212051349165.png)
 
-8. Langkah berikutnya adalah memastikan Arduino mengetahui Kapasitas Flash yang tersedia. Sebagai Info Waveshare ESP32-S3 Relay ini mempunya kapasitas FLASH 16MB dengan  PSRAM 8MB,  konfigurasi seperti pada gambar berikut
+8. Langkah berikutnya adalah memastikan Arduino mengetahui Kapasitas Flash yang tersedia. Sebagai Info Lolin S3 Pro Relay ini mempunya kapasitas FLASH 16MB dengan  PSRAM 8MB,  konfigurasi seperti pada gambar berikut
 
 ![image-20250214071748068](./assets/image-20250214071748068.png)
 
@@ -53,7 +53,7 @@
 
 ### Deskripsi
 
-Tombol BOOT pada Waveshare ESP32-S3 Relay digunakan untuk membaca input digital. Dalam program ini, tombol BOOT yang terhubung ke pin GP0 akan diuji untuk mendeteksi apakah tombol ditekan atau tidak. Hasil pembacaan akan ditampilkan melalui Serial Monitor.
+Tombol BOOT pada Lolin S3 Pro Relay digunakan untuk membaca input digital. Dalam program ini, tombol BOOT yang terhubung ke pin GP0 akan diuji untuk mendeteksi apakah tombol ditekan atau tidak. Hasil pembacaan akan ditampilkan melalui Serial Monitor.
 
 ```c++
 #define BOOT_KEY 0
@@ -124,7 +124,7 @@ void loop() {
 ### Cara Uji
 
 1. **Persiapan Perangkat**
-   - Pastikan **Waveshare ESP32-S3 Relay** dalam keadaan siap digunakan.
+   - Pastikan **Lolin S3 Pro Relay** dalam keadaan siap digunakan.
 2. **Unggah Program**
    - Buka Arduino IDE atau PlatformIO.
    - Salin kode ke dalam editor.
@@ -137,7 +137,7 @@ void loop() {
      - Jika tombol ditekan, nilai yang muncul info `"Tombol BOOT ditekan!"` 
    - Tekan dan lepaskan tombol BOOT beberapa kali untuk melihat perubahan nilai.
 
-Dengan demikian, kita berhasil menguji fungsi tombol BOOT pada Waveshare ESP32-S3 Relay!
+Dengan demikian, kita berhasil menguji fungsi tombol BOOT pada Lolin S3 Pro Relay!
 
 
 
@@ -145,7 +145,7 @@ Dengan demikian, kita berhasil menguji fungsi tombol BOOT pada Waveshare ESP32-S
 
 ### Deskripsi
 
-Pada proyek ini, kita akan menguji fungsi LED WS2812 yang terdapat pada Waveshare ESP32-S3 Relay. Program ini akan menyalakan LED dengan warna biru dan kemudian mematikannya secara berkedip dengan interval 50 milidetik.
+Pada proyek ini, kita akan menguji fungsi LED WS2812 yang terdapat pada Lolin S3 Pro Relay. Program ini akan menyalakan LED dengan warna biru dan kemudian mematikannya secara berkedip dengan interval 50 milidetik.
 
 ```c++
 #include "FastLED.h"
